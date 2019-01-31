@@ -25,9 +25,11 @@ package com.example.a301team19.lab4;
 public abstract class Shape {
     public int x;
     public int y;
+    public string color;
 
-    Shape(int x, int y){
+    Shape(int x, int y, string c){
         this.x  = x;
         this.y = y;
+        this.color = c;
     }
 }
