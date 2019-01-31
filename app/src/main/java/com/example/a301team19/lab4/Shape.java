@@ -25,7 +25,7 @@ package com.example.a301team19.lab4;
 public abstract class Shape {
     public int x;
     public int y;
-    public int zz;
+    public int z;
 	
     Shape(int x, int y){
     public int z;
