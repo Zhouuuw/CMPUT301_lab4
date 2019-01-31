@@ -22,22 +22,8 @@
 
 package com.example.a301team19.lab4;
 
-public abstract class Shape {
-    public int x;
-    public int y;
-    public int zz;
-	
-    Shape(int x, int y){
-    public int z;
-    public string color;
-
-    Shape(int x, int y, string color){
-        this.x  = x;
-        this.y = y;
-        this.z = z;
-        this.color = color;
+public class Star extends Shape {
+    Star(){
+        super(1,2);
     }
-    
-
-   
 }
