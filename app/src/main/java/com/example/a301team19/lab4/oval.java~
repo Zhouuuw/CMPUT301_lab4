@@ -8,8 +8,7 @@ public class Oval extends Shape {
         }
 
         public Oval(String color){
-             this.color= color;
-	     Oval.color= red;}
+             this.color= color;}
        
 
 }
