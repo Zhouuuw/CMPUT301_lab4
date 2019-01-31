@@ -28,7 +28,17 @@ public abstract class Shape {
     public int zz;
 	
     Shape(int x, int y){
+    public int z;
+
+    Shape(int x, int y, int z){
         this.x  = x;
         this.y = y;
+        this.z = z;
+    public string color;
+
+    Shape(int x, int y, string c){
+        this.x  = x;
+        this.y = y;
+        this.color = c;
     }
 }
